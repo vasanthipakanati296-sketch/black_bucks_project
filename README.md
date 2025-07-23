@@ -22,3 +22,25 @@ pip install -r requirements.txt
 python app.py
 3. Open a browser and go to:
 http://127.0.0.1:5000/
+👉If you're opening this project from GitHub and want to run it on your local machine, follow these simple steps:
+
+📦 1. Clone the Repository
+git clone (paste the link)
+cd (paste project name)
+⚙️ 2. Install Required Libraries
+Make sure you have Python installed. Then, install all required libraries using:
+
+pip install -r requirements.txt
+This will automatically install everything like transformers, flask, and more.
+
+🧠 3. Run the Chatbot
+To start the chatbot backend:
+python app.py
+Then open your browser and go to:
+http://localhost:5000
+📁 Project Files Overview
+app.py	Flask server that connects frontend to chatbot
+chatbot.py	Core chatbot logic using DialoGPT
+index.html	Frontend user interface for the chatbot
+requirements.txt	List of libraries to install
+
